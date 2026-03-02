@@ -1,0 +1,2758 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T06:37:04.257Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F11",
+  "features": [
+    {
+      "id": "F11-01",
+      "title": "PROCESS_TD_A API [ID=F11-PROCESS_TD_A]",
+      "source_heading": "## Feature: PROCESS_TD_A API [ID=F11-PROCESS_TD_A]",
+      "stories": [
+        {
+          "id": "F11-01-001",
+          "title": "GET /process_td_agent_response [ID=F11-PROCESS_TD_A-001]",
+          "feature_id": "F11-01",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-02",
+      "title": "PROCESS_AGEN API [ID=F11-PROCESS_AGEN]",
+      "source_heading": "## Feature: PROCESS_AGEN API [ID=F11-PROCESS_AGEN]",
+      "stories": [
+        {
+          "id": "F11-02-001",
+          "title": "GET /process_agent_response [ID=F11-PROCESS_AGEN-001]",
+          "feature_id": "F11-02",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-03",
+      "title": "?? Quick Start with GitHub Codespaces (5 Minutes)",
+      "source_heading": "## Feature: ?? Quick Start with GitHub Codespaces (5 Minutes) [ID=F11-03]",
+      "stories": [
+        {
+          "id": "F11-03-001",
+          "title": "1. Create Codespace",
+          "feature_id": "F11-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-03-002",
+          "title": "2. Run Deployment",
+          "feature_id": "F11-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-03-003",
+          "title": "3. Start Development Servers",
+          "feature_id": "F11-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-04",
+      "title": "MVP Goal",
+      "source_heading": "## Feature: MVP Goal [ID=F11-04]",
+      "stories": [
+        {
+          "id": "F11-04-001",
+          "title": "Advanced Features Roadmap",
+          "feature_id": "F11-04",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-05",
+      "title": "Scope",
+      "source_heading": "## Feature: Scope [ID=F11-05]",
+      "stories": [
+        {
+          "id": "F11-05-001",
+          "title": "In-Scope for MVP",
+          "feature_id": "F11-05",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-05-002",
+          "title": "Out-of-Scope for MVP",
+          "feature_id": "F11-05",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-06",
+      "title": "Architecture Overview",
+      "source_heading": "## Feature: Architecture Overview [ID=F11-06]",
+      "stories": [
+        {
+          "id": "F11-06-001",
+          "title": "Logical Architecture (ABRG-aligned)",
+          "feature_id": "F11-06",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-06-002",
+          "title": "Key Components",
+          "feature_id": "F11-06",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-07",
+      "title": "Data Ingestion & CanLII CDC Approach",
+      "source_heading": "## Feature: Data Ingestion & CanLII CDC Approach [ID=F11-07]",
+      "stories": [
+        {
+          "id": "F11-07-001",
+          "title": "Change Data Capture (CDC) Strategy",
+          "feature_id": "F11-07",
+          "source": "heading",
+          "tasks": [
+            {
+              "id": "F11-07-001-T01",
+              "title": "Tier 1 ? Registry Polling (Metadata-based)",
+              "story_id": "F11-07-001",
+              "feature_id": "F11-07",
+              "done": false,
+              "source": "checklist"
+            },
+            {
+              "id": "F11-07-001-T02",
+              "title": "Tier 2 ? Artifact Verification (Content-based)",
+              "story_id": "F11-07-001",
+              "feature_id": "F11-07",
+              "done": false,
+              "source": "checklist"
+            }
+          ]
+        },
+        {
+          "id": "F11-07-002",
+          "title": "CDC Core Principles",
+          "feature_id": "F11-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-07-003",
+          "title": "Deterministic Re-runs",
+          "feature_id": "F11-07",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-08",
+      "title": "UX Principles and Improvements",
+      "source_heading": "## Feature: UX Principles and Improvements [ID=F11-08]",
+      "stories": [
+        {
+          "id": "F11-08-001",
+          "title": "Current State (Baseline)",
+          "feature_id": "F11-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-08-002",
+          "title": "MVP UX Enhancements",
+          "feature_id": "F11-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-08-003",
+          "title": "Design Philosophy",
+          "feature_id": "F11-08",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-09",
+      "title": "Success Criteria (Testable)",
+      "source_heading": "## Feature: Success Criteria (Testable) [ID=F11-09]",
+      "stories": [
+        {
+          "id": "F11-09-001",
+          "title": "Functional Criteria",
+          "feature_id": "F11-09",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-09-002",
+          "title": "UX Criteria",
+          "feature_id": "F11-09",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-09-003",
+          "title": "Non-Functional Criteria",
+          "feature_id": "F11-09",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-10",
+      "title": "Project Structure",
+      "source_heading": "## Feature: Project Structure [ID=F11-10]",
+      "stories": [
+        {
+          "id": "F11-10-001",
+          "title": "Why Fresh Clone Instead of EVA-JP-v1.2?",
+          "feature_id": "F11-10",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-11",
+      "title": "Developer Quickstart",
+      "source_heading": "## Feature: Developer Quickstart [ID=F11-11]",
+      "stories": [
+        {
+          "id": "F11-11-001",
+          "title": "Prerequisites Status",
+          "feature_id": "F11-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-11-002",
+          "title": "Quickstart: GitHub Codespaces (Recommended)",
+          "feature_id": "F11-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-11-003",
+          "title": "Alternative: Local Development Setup",
+          "feature_id": "F11-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-11-004",
+          "title": "Key Configuration Files",
+          "feature_id": "F11-11",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-12",
+      "title": "Post-Deployment: Cherry-Picking from EVA-JP-v1.2",
+      "source_heading": "## Feature: Post-Deployment: Cherry-Picking from EVA-JP-v1.2 [ID=F11-12]",
+      "stories": [
+        {
+          "id": "F11-12-001",
+          "title": "1. RAG Approach Enhancements",
+          "feature_id": "F11-12",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-12-002",
+          "title": "2. Jurisprudence-Specific Prompts",
+          "feature_id": "F11-12",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-12-003",
+          "title": "3. Testing with ESDC Enhancements",
+          "feature_id": "F11-12",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-13",
+      "title": "Delivery Phases",
+      "source_heading": "## Feature: Delivery Phases [ID=F11-13]",
+      "stories": [
+        {
+          "id": "F11-13-001",
+          "title": "Phase 0: Baseline Setup (Week 1)",
+          "feature_id": "F11-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-13-002",
+          "title": "Phase 1: JP Ingestion Pipeline (Weeks 2-3)",
+          "feature_id": "F11-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-13-003",
+          "title": "Phase 2: RAG with Citations (Weeks 4-5)",
+          "feature_id": "F11-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-13-004",
+          "title": "Phase 3: UX Polish and Prompt Tuning (Week 6)",
+          "feature_id": "F11-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-13-005",
+          "title": "Phase 4: Hardening and Handoff (Week 7)",
+          "feature_id": "F11-13",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-14",
+      "title": "Risks and Mitigations",
+      "source_heading": "## Feature: Risks and Mitigations [ID=F11-14]",
+      "stories": [
+        {
+          "id": "F11-14-001",
+          "title": "Risk 1: CanLII API Limitations",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-002",
+          "title": "Risk 2: Citation Accuracy",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-003",
+          "title": "Risk 3: Response Time Exceeds 30 Seconds",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-004",
+          "title": "Risk 4: Insufficient Azure OpenAI Quota",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-005",
+          "title": "Risk 5: Security / Authentication Issues",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-006",
+          "title": "Risk 6: Data Quality Issues",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-14-007",
+          "title": "Risk 7: Scope Creep",
+          "feature_id": "F11-14",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-15",
+      "title": "References",
+      "source_heading": "## Feature: References [ID=F11-15]",
+      "stories": []
+    },
+    {
+      "id": "F11-16",
+      "title": "Contact and Support",
+      "source_heading": "## Feature: Contact and Support [ID=F11-16]",
+      "stories": []
+    },
+    {
+      "id": "F11-17",
+      "title": "License",
+      "source_heading": "## Feature: License [ID=F11-17]",
+      "stories": []
+    },
+    {
+      "id": "F11-API",
+      "title": "API API",
+      "source_heading": "## Feature: API API [ID=F11-API]",
+      "stories": [
+        {
+          "id": "F11-API-001",
+          "title": "GET /",
+          "feature_id": "F11-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-API-002",
+          "title": "GET /",
+          "feature_id": "F11-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-API-001",
+          "title": "GET /",
+          "feature_id": "F11-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-API-002",
+          "title": "GET /",
+          "feature_id": "F11-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-HEALTH",
+      "title": "HEALTH API",
+      "source_heading": "## Feature: HEALTH API [ID=F11-HEALTH]",
+      "stories": [
+        {
+          "id": "F11-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F11-HEALTH",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-HEALTH-002",
+          "title": "GET /health",
+          "feature_id": "F11-HEALTH",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F11-HEALTH",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-HEALTH-002",
+          "title": "GET /health",
+          "feature_id": "F11-HEALTH",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-CHAT",
+      "title": "CHAT API",
+      "source_heading": "## Feature: CHAT API [ID=F11-CHAT]",
+      "stories": [
+        {
+          "id": "F11-CHAT-001",
+          "title": "POST /chat",
+          "feature_id": "F11-CHAT",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-CHAT-001",
+          "title": "POST /chat",
+          "feature_id": "F11-CHAT",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETALLUPLOAD",
+      "title": "GETALLUPLOAD API",
+      "source_heading": "## Feature: GETALLUPLOAD API [ID=F11-GETALLUPLOAD]",
+      "stories": [
+        {
+          "id": "F11-GETALLUPLOAD-001",
+          "title": "POST /getalluploadstatus",
+          "feature_id": "F11-GETALLUPLOAD",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETALLUPLOAD-001",
+          "title": "POST /getalluploadstatus",
+          "feature_id": "F11-GETALLUPLOAD",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETFOLDERS",
+      "title": "GETFOLDERS API",
+      "source_heading": "## Feature: GETFOLDERS API [ID=F11-GETFOLDERS]",
+      "stories": [
+        {
+          "id": "F11-GETFOLDERS-001",
+          "title": "POST /getfolders",
+          "feature_id": "F11-GETFOLDERS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETFOLDERS-001",
+          "title": "POST /getfolders",
+          "feature_id": "F11-GETFOLDERS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-DELETEITEMS",
+      "title": "DELETEITEMS API",
+      "source_heading": "## Feature: DELETEITEMS API [ID=F11-DELETEITEMS]",
+      "stories": [
+        {
+          "id": "F11-DELETEITEMS-001",
+          "title": "POST /deleteItems",
+          "feature_id": "F11-DELETEITEMS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-DELETEITEMS-001",
+          "title": "POST /deleteItems",
+          "feature_id": "F11-DELETEITEMS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-RESUBMITITEM",
+      "title": "RESUBMITITEM API",
+      "source_heading": "## Feature: RESUBMITITEM API [ID=F11-RESUBMITITEM]",
+      "stories": [
+        {
+          "id": "F11-RESUBMITITEM-001",
+          "title": "POST /resubmitItems",
+          "feature_id": "F11-RESUBMITITEM",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-RESUBMITITEM-001",
+          "title": "POST /resubmitItems",
+          "feature_id": "F11-RESUBMITITEM",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETTAGS",
+      "title": "GETTAGS API",
+      "source_heading": "## Feature: GETTAGS API [ID=F11-GETTAGS]",
+      "stories": [
+        {
+          "id": "F11-GETTAGS-001",
+          "title": "POST /gettags",
+          "feature_id": "F11-GETTAGS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETTAGS-001",
+          "title": "POST /gettags",
+          "feature_id": "F11-GETTAGS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-LOGSTATUS",
+      "title": "LOGSTATUS API",
+      "source_heading": "## Feature: LOGSTATUS API [ID=F11-LOGSTATUS]",
+      "stories": [
+        {
+          "id": "F11-LOGSTATUS-001",
+          "title": "POST /logstatus",
+          "feature_id": "F11-LOGSTATUS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-LOGSTATUS-001",
+          "title": "POST /logstatus",
+          "feature_id": "F11-LOGSTATUS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETINFODATA",
+      "title": "GETINFODATA API",
+      "source_heading": "## Feature: GETINFODATA API [ID=F11-GETINFODATA]",
+      "stories": [
+        {
+          "id": "F11-GETINFODATA-001",
+          "title": "GET /getInfoData",
+          "feature_id": "F11-GETINFODATA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETINFODATA-001",
+          "title": "GET /getInfoData",
+          "feature_id": "F11-GETINFODATA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETWARNINGBA",
+      "title": "GETWARNINGBA API",
+      "source_heading": "## Feature: GETWARNINGBA API [ID=F11-GETWARNINGBA]",
+      "stories": [
+        {
+          "id": "F11-GETWARNINGBA-001",
+          "title": "GET /getWarningBanner",
+          "feature_id": "F11-GETWARNINGBA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETWARNINGBA-001",
+          "title": "GET /getWarningBanner",
+          "feature_id": "F11-GETWARNINGBA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETMAXCSVFIL",
+      "title": "GETMAXCSVFIL API",
+      "source_heading": "## Feature: GETMAXCSVFIL API [ID=F11-GETMAXCSVFIL]",
+      "stories": [
+        {
+          "id": "F11-GETMAXCSVFIL-001",
+          "title": "GET /getMaxCSVFileSize",
+          "feature_id": "F11-GETMAXCSVFIL",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETMAXCSVFIL-001",
+          "title": "GET /getMaxCSVFileSize",
+          "feature_id": "F11-GETMAXCSVFIL",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETCITATION",
+      "title": "GETCITATION API",
+      "source_heading": "## Feature: GETCITATION API [ID=F11-GETCITATION]",
+      "stories": [
+        {
+          "id": "F11-GETCITATION-001",
+          "title": "POST /getcitation",
+          "feature_id": "F11-GETCITATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETCITATION-001",
+          "title": "POST /getcitation",
+          "feature_id": "F11-GETCITATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETAPPLICATI",
+      "title": "GETAPPLICATI API",
+      "source_heading": "## Feature: GETAPPLICATI API [ID=F11-GETAPPLICATI]",
+      "stories": [
+        {
+          "id": "F11-GETAPPLICATI-001",
+          "title": "GET /getApplicationTitle",
+          "feature_id": "F11-GETAPPLICATI",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETAPPLICATI-001",
+          "title": "GET /getApplicationTitle",
+          "feature_id": "F11-GETAPPLICATI",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETALLTAGS",
+      "title": "GETALLTAGS API",
+      "source_heading": "## Feature: GETALLTAGS API [ID=F11-GETALLTAGS]",
+      "stories": [
+        {
+          "id": "F11-GETALLTAGS-001",
+          "title": "GET /getalltags",
+          "feature_id": "F11-GETALLTAGS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETALLTAGS-001",
+          "title": "GET /getalltags",
+          "feature_id": "F11-GETALLTAGS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETTEMPIMAGE",
+      "title": "GETTEMPIMAGE API",
+      "source_heading": "## Feature: GETTEMPIMAGE API [ID=F11-GETTEMPIMAGE]",
+      "stories": [
+        {
+          "id": "F11-GETTEMPIMAGE-001",
+          "title": "GET /getTempImages",
+          "feature_id": "F11-GETTEMPIMAGE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETTEMPIMAGE-001",
+          "title": "GET /getTempImages",
+          "feature_id": "F11-GETTEMPIMAGE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETHINT",
+      "title": "GETHINT API",
+      "source_heading": "## Feature: GETHINT API [ID=F11-GETHINT]",
+      "stories": [
+        {
+          "id": "F11-GETHINT-001",
+          "title": "GET /getHint",
+          "feature_id": "F11-GETHINT",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETHINT-001",
+          "title": "GET /getHint",
+          "feature_id": "F11-GETHINT",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-POSTTD",
+      "title": "POSTTD API",
+      "source_heading": "## Feature: POSTTD API [ID=F11-POSTTD]",
+      "stories": [
+        {
+          "id": "F11-POSTTD-001",
+          "title": "POST /posttd",
+          "feature_id": "F11-POSTTD",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-POSTTD-001",
+          "title": "POST /posttd",
+          "feature_id": "F11-POSTTD",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETTDANALYSI",
+      "title": "GETTDANALYSI API",
+      "source_heading": "## Feature: GETTDANALYSI API [ID=F11-GETTDANALYSI]",
+      "stories": [
+        {
+          "id": "F11-GETTDANALYSI-001",
+          "title": "GET /getTdAnalysis",
+          "feature_id": "F11-GETTDANALYSI",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETTDANALYSI-001",
+          "title": "GET /getTdAnalysis",
+          "feature_id": "F11-GETTDANALYSI",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-REFRESH",
+      "title": "REFRESH API",
+      "source_heading": "## Feature: REFRESH API [ID=F11-REFRESH]",
+      "stories": [
+        {
+          "id": "F11-REFRESH-001",
+          "title": "POST /refresh",
+          "feature_id": "F11-REFRESH",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-REFRESH-001",
+          "title": "POST /refresh",
+          "feature_id": "F11-REFRESH",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-STREAM",
+      "title": "STREAM API",
+      "source_heading": "## Feature: STREAM API [ID=F11-STREAM]",
+      "stories": [
+        {
+          "id": "F11-STREAM-001",
+          "title": "GET /stream",
+          "feature_id": "F11-STREAM",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-STREAM-001",
+          "title": "GET /stream",
+          "feature_id": "F11-STREAM",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-TDSTREAM",
+      "title": "TDSTREAM API",
+      "source_heading": "## Feature: TDSTREAM API [ID=F11-TDSTREAM]",
+      "stories": [
+        {
+          "id": "F11-TDSTREAM-001",
+          "title": "GET /tdstream",
+          "feature_id": "F11-TDSTREAM",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-TDSTREAM-001",
+          "title": "GET /tdstream",
+          "feature_id": "F11-TDSTREAM",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETFEATUREFL",
+      "title": "GETFEATUREFL API",
+      "source_heading": "## Feature: GETFEATUREFL API [ID=F11-GETFEATUREFL]",
+      "stories": [
+        {
+          "id": "F11-GETFEATUREFL-001",
+          "title": "GET /getFeatureFlags",
+          "feature_id": "F11-GETFEATUREFL",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETFEATUREFL-001",
+          "title": "GET /getFeatureFlags",
+          "feature_id": "F11-GETFEATUREFL",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-FILE",
+      "title": "FILE API",
+      "source_heading": "## Feature: FILE API [ID=F11-FILE]",
+      "stories": [
+        {
+          "id": "F11-FILE-001",
+          "title": "POST /file",
+          "feature_id": "F11-FILE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-FILE-001",
+          "title": "POST /file",
+          "feature_id": "F11-FILE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-GETFILE",
+      "title": "GETFILE API",
+      "source_heading": "## Feature: GETFILE API [ID=F11-GETFILE]",
+      "stories": [
+        {
+          "id": "F11-GETFILE-001",
+          "title": "POST /get-file",
+          "feature_id": "F11-GETFILE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-GETFILE-001",
+          "title": "POST /get-file",
+          "feature_id": "F11-GETFILE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-MODELS",
+      "title": "MODELS API",
+      "source_heading": "## Feature: MODELS API [ID=F11-MODELS]",
+      "stories": [
+        {
+          "id": "F11-MODELS-001",
+          "title": "GET /models",
+          "feature_id": "F11-MODELS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-MODELS-002",
+          "title": "GET /models/{model}",
+          "feature_id": "F11-MODELS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-MODELS-003",
+          "title": "POST /models/{model}/embed",
+          "feature_id": "F11-MODELS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-MODELS-001",
+          "title": "GET /models",
+          "feature_id": "F11-MODELS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-MODELS-002",
+          "title": "GET /models/{model}",
+          "feature_id": "F11-MODELS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-MODELS-003",
+          "title": "POST /models/{model}/embed",
+          "feature_id": "F11-MODELS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-INFRA",
+      "title": "Infrastructure Resources",
+      "source_heading": "## Feature: Infrastructure Resources [ID=F11-INFRA]",
+      "stories": [
+        {
+          "id": "F11-INFRA-001",
+          "title": "azurerm_resource_group \"rg\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-002",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"user_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-003",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"webApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-004",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"functionApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-005",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"enrichmentApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-006",
+          "title": "azurerm_resource_group_template_deployment \"customer_attribution\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-007",
+          "title": "azurerm_container_registry \"acr\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-008",
+          "title": "azurerm_private_endpoint \"ContainerRegistryPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-009",
+          "title": "azurerm_cosmosdb_account \"cosmosdb_account\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-010",
+          "title": "azurerm_cosmosdb_sql_database \"log_database\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-011",
+          "title": "azurerm_cosmosdb_sql_container \"log_container\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-012",
+          "title": "azurerm_private_endpoint \"cosmosPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-013",
+          "title": "azurerm_search_service \"search\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-014",
+          "title": "azurerm_private_endpoint \"searchPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-015",
+          "title": "azurerm_resource_group_template_deployment \"sharepoint_logicapp\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-016",
+          "title": "azurerm_storage_account \"storage\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-017",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-018",
+          "title": "azurerm_monitor_diagnostic_setting \"blob_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-019",
+          "title": "azurerm_monitor_diagnostic_setting \"file_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-020",
+          "title": "azurerm_monitor_diagnostic_setting \"queue_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-021",
+          "title": "azurerm_monitor_diagnostic_setting \"table_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-022",
+          "title": "azurerm_resource_group_template_deployment \"container\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-023",
+          "title": "azurerm_resource_group_template_deployment \"queue\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-024",
+          "title": "azurerm_private_endpoint \"blobPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-025",
+          "title": "azurerm_private_endpoint \"filePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-026",
+          "title": "azurerm_private_endpoint \"tablePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-027",
+          "title": "azurerm_private_endpoint \"queuePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-028",
+          "title": "azurerm_storage_blob \"config\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-029",
+          "title": "azurerm_resource_group_template_deployment \"bing_search\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-030",
+          "title": "azurerm_cognitive_account \"cognitiveService\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-031",
+          "title": "azurerm_private_endpoint \"accountPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-032",
+          "title": "azurerm_cognitive_account \"docIntelligenceAccount\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-033",
+          "title": "azurerm_private_endpoint \"docintPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-034",
+          "title": "azurerm_cognitive_account \"openaiAccount\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-035",
+          "title": "azurerm_cognitive_deployment \"deployment\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-036",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-037",
+          "title": "azurerm_private_endpoint \"openaiPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-038",
+          "title": "azurerm_service_plan \"appServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-039",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-040",
+          "title": "azurerm_linux_web_app \"enrichmentapp\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-041",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-042",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-043",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-044",
+          "title": "azurerm_private_endpoint \"privateEnrichmentEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-045",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-046",
+          "title": "azurerm_service_plan \"funcServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-047",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-048",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-049",
+          "title": "azurerm_linux_function_app \"function_app\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-050",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-051",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-052",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-053",
+          "title": "azurerm_private_endpoint \"privateFunctionEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-054",
+          "title": "azurerm_service_plan \"appServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-055",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-056",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-057",
+          "title": "azurerm_linux_web_app \"app_service\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-058",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-059",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-060",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-061",
+          "title": "azurerm_private_endpoint \"backendPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-062",
+          "title": "azurerm_network_security_group \"nsg\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-063",
+          "title": "azurerm_network_ddos_protection_plan \"ddos\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-064",
+          "title": "azurerm_resource_group_template_deployment \"vnet_w_subnets\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-065",
+          "title": "azurerm_private_dns_resolver \"private_dns_resolver\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-066",
+          "title": "azurerm_private_dns_resolver_inbound_endpoint \"private_dns_resolver\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-067",
+          "title": "azurerm_private_dns_zone \"pr_dns_zone\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-068",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"pr_dns_vnet_link\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-069",
+          "title": "azurerm_log_analytics_workspace \"logAnalytics\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-070",
+          "title": "azurerm_application_insights \"applicationInsights\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-071",
+          "title": "azurerm_monitor_diagnostic_setting \"nsg_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-072",
+          "title": "azurerm_monitor_private_link_scope \"ampls\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-073",
+          "title": "azurerm_monitor_private_link_scoped_service \"ampl-ss_log_analytics\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-074",
+          "title": "azurerm_monitor_private_link_scoped_service \"ampl_ss_app_insights\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-075",
+          "title": "azurerm_private_endpoint \"ampls\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-076",
+          "title": "azurerm_private_dns_zone \"monitor\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-077",
+          "title": "azurerm_private_dns_a_record \"monitor_api\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-078",
+          "title": "azurerm_private_dns_a_record \"monitor_global\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-079",
+          "title": "azurerm_private_dns_a_record \"monitor_profiler\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-080",
+          "title": "azurerm_private_dns_a_record \"monitor_live\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-081",
+          "title": "azurerm_private_dns_a_record \"monitor_snapshot\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-082",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"monitor-net\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-083",
+          "title": "azurerm_private_dns_zone \"oms\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-084",
+          "title": "azurerm_private_dns_a_record \"oms_law_id\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-085",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"oms-net\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-086",
+          "title": "azurerm_private_dns_zone \"ods\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-087",
+          "title": "azurerm_private_dns_a_record \"ods_law_id\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-088",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"ods-net\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-089",
+          "title": "azurerm_private_dns_zone \"agentsvc\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-090",
+          "title": "azurerm_private_dns_a_record \"agentsvc_law_id\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-091",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"agentsvc-net\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-092",
+          "title": "azurerm_private_dns_a_record \"blob_scadvisorcontentpld\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-093",
+          "title": "azurerm_application_insights_workbook \"example\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-094",
+          "title": "azurerm_key_vault \"kv\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-095",
+          "title": "azurerm_key_vault_access_policy \"infoasst\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-096",
+          "title": "azurerm_private_endpoint \"kv_private_endpoint\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-097",
+          "title": "azurerm_resource_group_template_deployment \"kv_secret\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-098",
+          "title": "azurerm_role_assignment \"role\"",
+          "feature_id": "F11-INFRA",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-001",
+          "title": "azurerm_resource_group \"rg\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-002",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"user_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-003",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"webApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-004",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"functionApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-005",
+          "title": "azurerm_cosmosdb_sql_role_assignment \"enrichmentApp_cosmosdb_data_contributor\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-006",
+          "title": "azurerm_resource_group_template_deployment \"customer_attribution\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-007",
+          "title": "azurerm_container_registry \"acr\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-008",
+          "title": "azurerm_private_endpoint \"ContainerRegistryPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-009",
+          "title": "azurerm_cosmosdb_account \"cosmosdb_account\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-010",
+          "title": "azurerm_cosmosdb_sql_database \"log_database\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-011",
+          "title": "azurerm_cosmosdb_sql_container \"log_container\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-012",
+          "title": "azurerm_private_endpoint \"cosmosPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-013",
+          "title": "azurerm_search_service \"search\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-014",
+          "title": "azurerm_private_endpoint \"searchPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-015",
+          "title": "azurerm_resource_group_template_deployment \"sharepoint_logicapp\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-016",
+          "title": "azurerm_storage_account \"storage\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-017",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-018",
+          "title": "azurerm_monitor_diagnostic_setting \"blob_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-019",
+          "title": "azurerm_monitor_diagnostic_setting \"file_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-020",
+          "title": "azurerm_monitor_diagnostic_setting \"queue_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-021",
+          "title": "azurerm_monitor_diagnostic_setting \"table_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-022",
+          "title": "azurerm_resource_group_template_deployment \"container\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-023",
+          "title": "azurerm_resource_group_template_deployment \"queue\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-024",
+          "title": "azurerm_private_endpoint \"blobPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-025",
+          "title": "azurerm_private_endpoint \"filePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-026",
+          "title": "azurerm_private_endpoint \"tablePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-027",
+          "title": "azurerm_private_endpoint \"queuePrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-028",
+          "title": "azurerm_storage_blob \"config\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-029",
+          "title": "azurerm_resource_group_template_deployment \"bing_search\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-030",
+          "title": "azurerm_cognitive_account \"cognitiveService\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-031",
+          "title": "azurerm_private_endpoint \"accountPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-032",
+          "title": "azurerm_cognitive_account \"docIntelligenceAccount\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-033",
+          "title": "azurerm_private_endpoint \"docintPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-034",
+          "title": "azurerm_cognitive_account \"openaiAccount\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-035",
+          "title": "azurerm_cognitive_deployment \"deployment\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-036",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-037",
+          "title": "azurerm_private_endpoint \"openaiPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-038",
+          "title": "azurerm_service_plan \"appServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-039",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-040",
+          "title": "azurerm_linux_web_app \"enrichmentapp\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-041",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-042",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-043",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-044",
+          "title": "azurerm_private_endpoint \"privateEnrichmentEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-045",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-046",
+          "title": "azurerm_service_plan \"funcServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-047",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-048",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-049",
+          "title": "azurerm_linux_function_app \"function_app\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-050",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-051",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-052",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-053",
+          "title": "azurerm_private_endpoint \"privateFunctionEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-054",
+          "title": "azurerm_service_plan \"appServicePlan\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-055",
+          "title": "azurerm_monitor_autoscale_setting \"scaleout\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-056",
+          "title": "azurerm_role_assignment \"acr_pull_role\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-057",
+          "title": "azurerm_linux_web_app \"app_service\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-058",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_commercial\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-059",
+          "title": "azurerm_monitor_diagnostic_setting \"diagnostic_logs_usgov\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-060",
+          "title": "azurerm_key_vault_access_policy \"policy\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-061",
+          "title": "azurerm_private_endpoint \"backendPrivateEndpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-062",
+          "title": "azurerm_log_analytics_workspace \"logAnalytics\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-063",
+          "title": "azurerm_application_insights \"applicationInsights\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-064",
+          "title": "azurerm_monitor_diagnostic_setting \"nsg_diagnostic_logs\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-065",
+          "title": "azurerm_monitor_private_link_scope \"ampls\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-066",
+          "title": "azurerm_monitor_private_link_scoped_service \"ampl-ss_log_analytics\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-067",
+          "title": "azurerm_monitor_private_link_scoped_service \"ampl_ss_app_insights\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-068",
+          "title": "azurerm_private_endpoint \"ampls\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-069",
+          "title": "azurerm_private_dns_zone \"monitor\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-070",
+          "title": "azurerm_private_dns_a_record \"monitor_api\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-071",
+          "title": "azurerm_private_dns_a_record \"monitor_global\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-072",
+          "title": "azurerm_private_dns_a_record \"monitor_profiler\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-073",
+          "title": "azurerm_private_dns_a_record \"monitor_live\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-074",
+          "title": "azurerm_private_dns_a_record \"monitor_snapshot\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-075",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"monitor-net\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-076",
+          "title": "azurerm_private_dns_zone \"oms\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-077",
+          "title": "azurerm_private_dns_a_record \"oms_law_id\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-078",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"oms-net\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-079",
+          "title": "azurerm_private_dns_zone \"ods\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-080",
+          "title": "azurerm_private_dns_a_record \"ods_law_id\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-081",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"ods-net\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-082",
+          "title": "azurerm_private_dns_zone \"agentsvc\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-083",
+          "title": "azurerm_private_dns_a_record \"agentsvc_law_id\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-084",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"agentsvc-net\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-085",
+          "title": "azurerm_private_dns_a_record \"blob_scadvisorcontentpld\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-086",
+          "title": "azurerm_application_insights_workbook \"example\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-087",
+          "title": "azurerm_network_security_group \"nsg\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-088",
+          "title": "azurerm_network_ddos_protection_plan \"ddos\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-089",
+          "title": "azurerm_resource_group_template_deployment \"vnet_w_subnets\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-090",
+          "title": "azurerm_private_dns_resolver \"private_dns_resolver\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-091",
+          "title": "azurerm_private_dns_resolver_inbound_endpoint \"private_dns_resolver\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-092",
+          "title": "azurerm_private_dns_zone \"pr_dns_zone\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-093",
+          "title": "azurerm_private_dns_zone_virtual_network_link \"pr_dns_vnet_link\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-094",
+          "title": "azurerm_key_vault \"kv\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-095",
+          "title": "azurerm_key_vault_access_policy \"infoasst\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-096",
+          "title": "azurerm_private_endpoint \"kv_private_endpoint\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-097",
+          "title": "azurerm_resource_group_template_deployment \"kv_secret\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-INFRA-098",
+          "title": "azurerm_role_assignment \"role\"",
+          "feature_id": "F11-INFRA",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-OPS",
+      "title": "Operations Scripts",
+      "source_heading": "## Feature: Operations Scripts [ID=F11-OPS]",
+      "stories": [
+        {
+          "id": "F11-OPS-001",
+          "title": "command_exists()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-002",
+          "title": "install_azure_cli()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-003",
+          "title": "write_array_block()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-004",
+          "title": "printInfo()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-005",
+          "title": "set_yellow_text()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-006",
+          "title": "reset_text_color()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-007",
+          "title": "escape_string()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-008",
+          "title": "import_resource_if_needed()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-009",
+          "title": "get_secret()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-010",
+          "title": "set_yellow_text()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-011",
+          "title": "reset_text_color()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-012",
+          "title": "show_usage()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-013",
+          "title": "printInfo()",
+          "feature_id": "F11-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-001",
+          "title": "command_exists()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-002",
+          "title": "install_azure_cli()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-003",
+          "title": "write_array_block()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-004",
+          "title": "printInfo()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-005",
+          "title": "set_yellow_text()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-006",
+          "title": "reset_text_color()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-007",
+          "title": "escape_string()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-008",
+          "title": "import_resource_if_needed()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-009",
+          "title": "get_secret()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-010",
+          "title": "set_yellow_text()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-011",
+          "title": "reset_text_color()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-012",
+          "title": "show_usage()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F11-OPS-013",
+          "title": "printInfo()",
+          "feature_id": "F11-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-PROCESS_TD_A",
+      "title": "PROCESS_TD_A API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F11-PROCESS_TD_A-001",
+          "title": "GET /process_td_agent_response",
+          "feature_id": "F11-PROCESS_TD_A",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F11-PROCESS_AGEN",
+      "title": "PROCESS_AGEN API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F11-PROCESS_AGEN-001",
+          "title": "GET /process_agent_response",
+          "feature_id": "F11-PROCESS_AGEN",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
